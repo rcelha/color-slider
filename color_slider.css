@@ -1,0 +1,23 @@
+.color-slider-main {
+    position: relative;
+}
+.color-slider-main > .inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%
+}
+.color-slider-main > .inner > .item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.color-slider-main > .inner > .item.inactive {
+    left: -100%;
+}
+
+.color-slider-main > .inner > .item.active {
+    left: 0;
+}
